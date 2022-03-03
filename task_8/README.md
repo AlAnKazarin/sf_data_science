@@ -1,4 +1,4 @@
-# Проект 0. Угадай число
+# Задание 8.1 Модуль 8
 
 ## Оглавление
 [1. Описание проекта](https://github.com/AlAnKazarin/sf_data_science/tree/main/task_8/README.md#Описание-проекта)
