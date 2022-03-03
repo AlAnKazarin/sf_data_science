@@ -9,4 +9,4 @@ From the [Skillfactory Data Science course](https://skillfactory.ru/data-scienti
 
 ## Задания
 
-*[Задание 8.1. Оптимизация игры](https://github.com/AlAnKazarin/sf_data_science/tree/main/task_8)
+*[Задание 8.1. Оптимизация игры "Угадай число"](https://github.com/AlAnKazarin/sf_data_science/tree/main/task_8)
