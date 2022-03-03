@@ -23,14 +23,11 @@ def game_optimal_predict(number: int = 1) -> int:
     
     while number != predict:  
         count += 1
-        predict = np.random.randint(min_num, max_num) # уменьшаем множество чисел для ускорения поиска
-        
+        predict = np.random.randint(min_num, max_num) # уменьшаем множество чисел для ускорения поиска        
         if number < predict:
-            max_num = predict
-                       
+            max_num = predict                       
         elif number > predict:
-            min_num = predict 
-               
+            min_num = predict               
     return count
 
 def score_game(game_optimal_predict) -> int:
@@ -48,8 +45,7 @@ def score_game(game_optimal_predict) -> int:
     
     for number in random_array:
         count_ls.append(game_optimal_predict(number))
-    score = int(np.mean(count_ls)) # находим среднее количество попыток
-    
+    score = int(np.mean(count_ls)) # находим среднее количество попыток    
     print(f'Ваш алгоритм угадывает число в среднем за {score} попыток')
     return(score)
 
