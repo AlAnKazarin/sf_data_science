@@ -1,7 +1,12 @@
+"""Игра угадай число
+Компьютер сам загадывает и сам угадывает число
+"""
+
 import numpy as np
-from numpy import random
+
+
 def game_optimal_predict(number: int = 1) -> int:
-    """Сначала устанавливаем любое random число, а потом уменьшаем
+    """Сначала устанавливаем любое random число от 1 до 100, а потом уменьшаем
     или увеличиваем его в зависимости от того, больше оно или меньше нужного.
        Функция принимает загаданное число и возвращает число попыток
        
@@ -24,8 +29,8 @@ def game_optimal_predict(number: int = 1) -> int:
             max_num = predict
                        
         elif number > predict:
-            min_num = predict
-    
+            min_num = predict 
+               
     return count
 
 def score_game(game_optimal_predict) -> int:
